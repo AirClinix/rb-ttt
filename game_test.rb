@@ -6,7 +6,7 @@ class TestMeme < Minitest::Test
     @game = Game.new
   end
 
-  def test_that_it_sums_two_numbers
-    assert_equal 5, @game.sum(2,3)
+  def test_that_it_formats_the_empty_board
+    assert_equal "_|_|_\n_|_|_\n | | ", @game.to_s
   end
 end
