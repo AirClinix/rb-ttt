@@ -15,7 +15,7 @@ class Game
 
   protected
 
-  def play token
+  def play token, cell
   end
 
   def drawn?

@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require_relative "./game"
 
-class TestMeme < Minitest::Test
+class GameTest < Minitest::Test
   def setup
     @game = Game.new
   end
